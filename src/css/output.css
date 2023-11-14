@@ -534,10 +534,19 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.bg-primary-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 54 99 / var(--tw-bg-opacity));
 }
