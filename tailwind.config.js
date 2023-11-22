@@ -10,6 +10,10 @@ module.exports = {
         'succes-green': '#0B5D37',
         'pigore-gray': '#798190',
         'pigore-red': '#bd0113'
+      },
+      backgroundImage: {
+        'close-menu':  "url('../images/icon-close.svg')",
+        'open-menu': "url('../images/icon-hamburger.svg')",
       }
     },
   },

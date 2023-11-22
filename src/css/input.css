@@ -4,9 +4,13 @@
 
 @layer components{
     .wrapper{
-        @apply w-[90%] max-w-screen-xl mx-auto 
+        @apply w-[90%] max-w-screen-2xl mx-auto 
     }
     .bg-icons-hover{
         @apply bg-secondary-blue
+    }
+    .icons{
+        background-image: url('../images/icon-close.svg');
+        background-image: url('../images/icon-hamburger.svg');
     }
 }
