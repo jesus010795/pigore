@@ -541,6 +541,18 @@ video {
   max-width: 1536px;
 }
 
+.button {
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 54 99 / var(--tw-bg-opacity));
+  padding: 0.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .fixed {
   position: fixed;
 }
@@ -591,16 +603,16 @@ video {
   width: 33.333333%;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-\[75\%\] {
   width: 75%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .max-w-\[140px\] {
@@ -633,16 +645,24 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.gap-1 {
+  gap: 0.25rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .bg-primary-blue {
@@ -681,10 +701,6 @@ video {
   background-position: center;
 }
 
-.fill-white {
-  fill: #fff;
-}
-
 .p-12 {
   padding: 3rem;
 }
@@ -708,11 +724,6 @@ video {
   color: rgb(14 54 99 / var(--tw-text-opacity));
 }
 
-.text-gray-50 {
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -732,4 +743,56 @@ video {
 
 .peer:checked ~ .peer-checked\:bg-close-menu {
   background-image: url('../images/icon-close.svg');
+}
+
+@media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .md\:translate-x-0 {
+    --tw-translate-x: 0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
 }

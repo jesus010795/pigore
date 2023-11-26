@@ -6,8 +6,8 @@
     .wrapper{
         @apply w-[90%] max-w-screen-2xl mx-auto 
     }
-    .bg-icons-hover{
-        @apply bg-secondary-blue
+    .button{
+        @apply w-max p-3 rounded-full bg-primary-blue text-white font-bold
     }
     .icons{
         background-image: url('../images/icon-close.svg');
