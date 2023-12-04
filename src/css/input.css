@@ -7,7 +7,7 @@
         @apply w-[90%] max-w-screen-2xl mx-auto 
     }
     .button{
-        @apply block w-max p-3 rounded-full bg-primary-blue text-white font-bold
+        @apply block w-max p-3 rounded-xl bg-primary-blue text-white font-bold
     }
     .icons{
         background-image: url('../images/icon-close.svg');
