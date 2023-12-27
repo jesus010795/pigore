@@ -4,7 +4,7 @@
 
 @layer components{
     .wrapper{
-        @apply w-[90%] max-w-screen-2xl mx-auto 
+        @apply w-[80%] max-w-screen-2xl mx-auto 
     }
     .button{
         @apply block w-max p-3 rounded-xl bg-primary-blue text-white font-bold
