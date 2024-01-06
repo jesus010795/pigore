@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         'close-menu':  "url('../images/icon-close.svg')",
         'open-menu': "url('../images/icon-hamburger.svg')",
+      },
+      fontFamily: {
+        'kanit': ['Kanit',],
       }
     },
   },
